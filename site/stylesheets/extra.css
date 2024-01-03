@@ -1,0 +1,12 @@
+:root {
+    --md-primary-fg-color:        #476ea0;
+    --md-primary-fg-color--light: #9fc6ff;
+    --md-primary-fg-color--dark:  #00295f;
+  }
+
+  .atendido {
+    color: #3fb57a;
+  }
+  .aberto{
+    color: #e9dc40
+  }
