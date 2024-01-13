@@ -1,5 +1,5 @@
 ---
-title: O que é Canal de Origem
+title: O que é Canal de Origem?
 authors:
     - Gabriel Nascimento
 date: 2024-01-03

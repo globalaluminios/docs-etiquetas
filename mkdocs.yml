@@ -1,4 +1,4 @@
-site_name: My Docs
+site_name: Guia de Faturamento
 theme: 
   name: material
   logo: assets/logo-branca.png
@@ -13,6 +13,17 @@ theme:
     - toc.follow
     - search.suggest
     - content.tabs.link
+    - navigation.footer
+copyright: Todos os direitos reservados &copy; 2024 Global Alumínios</br>A reprodução e compartilhamento do conteúdo desse site fora dos canais da empresa é expressamente proibida
+
+nav:
+    - Emissão de Nota Fiscal:
+        - index.md
+        - Processo de emissão: emissao.md
+        - Processo de impressão: impressao.md
+    - Glossário:
+       # - index.md
+        - O que é canal de origem?: glossario/o-que-e-canal-de-origem.md
 
 extra_css:
   - stylesheets/extra.css

@@ -5,6 +5,9 @@ authors:
     - Gabriel Nascimento
 date: 2023-12-23
 ---
+!!! info "Horários da automação"
+    A automação de NFe roda duas vezes ao dia nos horários **05:30h da manhã** e às **15:00h**.  
+    <sub>Horário de Brasília (GMT -3)</sub>
 
 A preparação e emissão de NFes na Global é feita quase inteiramente pela automação nas contas **Mundial Alumínios** e **Imperium Alumínios** e dividido em duas partes, de acordo com o seguinte fluxograma:
 ### Preparação de NFes (automação)
@@ -56,9 +59,29 @@ Para as NFs que estão na situação "Pendentes", há algumas verificações que
 
 
 === "Faltando bairro"
-    Para as NFs que estejam faltando o bairro, você pode solucionar colocando "Centro" no contato, de acordo com o guia abaixo:
+    Para as NFs que estejam faltando o bairro, você pode solucionar colocando "Centro" no contato, de acordo com o guia abaixo:  
+    Você pode clicar no campo que está faltando (nesse caso, o bairro) para poder editar as informações de contato. 
     ![Tutorial de como colocar o bairro](/assets/tutorial-bairro1.webp)
+    Após isso, você deve preencher **"Centro"** (independentemente do bairro de fato), clicar em "Utilizar este cadastro" e ir salvar a venda
     ![Tutorial do bairro - pt. 2](/assets/tutorial-bairro2.webp)
 === "Faltando NCM"
+    NCM significa _Nomenclatura Comum do Mercosul_ e é um código criado para facilitar e padronizar o comércio de produtos dentro da zona do Mercosul. Nosso NCM por padrão (como só comercializamos **um** tipo de produto) é _**76.15.10.00**_
+    As vezes alguns produtos são importados sem NCM para a venda, causando esse erro.
+    Para erros que faltam o NCM, você pode seguir o tutorial abaixo:
+    <iframe src="https://scribehow.com/embed/Add_a_new_NCM_code_for_Bling_invoices__biYsn7bWRu29pUvQq5T3sQ?skipIntro=true" width="100%" height="640" allowfullscreen frameborder="0"></iframe>
+
 === "Faltando origem"
+    Todos os produtos em NF deve ter a sua **Origem** especificada neles. As vezes, alguns produtos são importados sem essa origem na venda.  
+    Para consertar esse erro, você pode seguir o tutorial abaixo:
+    <iframe src="https://scribehow.com/embed/Adicionando_a_origem_nas_NFs__7BcW78jPS_WGz5kxQnvNyg?skipIntro=true" width="640" height="640" allowfullscreen frameborder="0"></iframe>
 === "Consultar situação"
+    Devido à lentidão de SEFAZ em alguns momentos do dia, algumas notas fiscais podem ficar paradas na situação ```Aguardando protocolo```.  
+    Para resolver esses erros, é bem simples:
+    <iframe src="https://scribehow.com/embed/Consultando_recibos_de_NFs_pendentes___1eFTY7jQGioSidXmmBriw?skipIntro=true" width="640" height="640" allowfullscreen frameborder="0"></iframe>
+
+## Outros tipos de rejeição e falhas de validação
+O Bling pode enviar outros erros de validação e rejeição que não estão listados aqui. Para isso, acesse a base de ajuda do Bling em:  
+[Notas Fiscais e Tributações > Erros e Rejeições](https://ajuda.bling.com.br/hc/pt-br/sections/360005474554-Erros-e-Rejei%C3%A7%C3%B5es)
+
+## Conclusão
+Assim, concluímos o processo de **Emissão de NFes** na Global Alumínios. Acesse a próxima página abaixo para continuar na jornada de aprendizado.
